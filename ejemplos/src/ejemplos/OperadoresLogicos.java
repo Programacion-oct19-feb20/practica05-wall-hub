@@ -14,6 +14,16 @@ public class OperadoresLogicos {
     public static void main(String[] args) {
         boolean valorA = true;
         boolean valorB = false;
+        
+        /** Comentario
+            V and F = F
+            V and V = V
+            F and F = F
+            V or V = V
+            V or F = V        
+            F or V = V
+            F or F = F
+        */
 
         System.out.printf("Negacion: !%s = %s\n", valorA, !valorA);
         System.out.printf("Negacion: !%s = %s\n", valorB, !valorB);
